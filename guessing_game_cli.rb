@@ -1,5 +1,5 @@
 def run_guessing_game
-	rand_num=rand(1..6).to_s
+	rand_num=1+rand(1..6).to_s
 	input=gets.chomp
 	
 	if input == 'exit'
